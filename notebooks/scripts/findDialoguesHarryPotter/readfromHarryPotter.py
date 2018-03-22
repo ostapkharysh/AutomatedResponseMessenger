@@ -1,4 +1,5 @@
 """Books taken from https://javalibre.com.ua"""
+""" 24240 dialog lines together """
 
 
 books = ["Harri-Potter-i-Filosofskyj-Kamin-Dzhoan-Ketlin-Roling.txt",
