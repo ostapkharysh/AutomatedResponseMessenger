@@ -9,6 +9,8 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                     level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+print(logging)
+
 
 def start(bot, update):
     bot.send_message(chat_id=update.message.chat_id, text="I'm a bot, who could let you "
@@ -21,12 +23,15 @@ def start(bot, update):
 
     update.message.reply_text('Please choose:', reply_markup=reply_markup)
 
+
 def echo(bot, update):
     bot.send_message(chat_id=update.message.chat_id, text=update.message.text)
 
-def decide(bot, update):
-    print(update.message.text)
-    #bot.send_message(chat_id=update.message.chat_id, text=update.message.text)
+
+# def decide(bot, update):
+#     print(update.message.text)
+#     #bot.send_message(chat_id=update.message.chat_id, text=update.message.text)
+
 
 def button(bot, update):
     query = update.callback_query
@@ -49,6 +54,7 @@ updater = Updater('535695146:AAHcfzozKx3scHwQFP7WlvZNZBr0mOO4y0Y')
 
 updater.dispatcher.add_handler(CommandHandler('start', start))
 
+
 def main():
     # Create the Updater and pass it your bot's token.
     #updater = Updater('535695146:AAHcfzozKx3scHwQFP7WlvZNZBr0mOO4y0Y')
@@ -59,7 +65,6 @@ def main():
 
     echo_handler = MessageHandler(Filters.text, echo)
     updater.dispatcher.add_handler(echo_handler)
-
 
     updater.dispatcher.add_handler(CallbackQueryHandler(button))
     updater.dispatcher.add_handler(CommandHandler('help', help))

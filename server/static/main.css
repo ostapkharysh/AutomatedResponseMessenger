@@ -1,0 +1,9 @@
+.container{
+    width: 100px;
+    margin: auto;
+    height: 100px;
+}
+.predict{
+    margin: auto;
+    opacity: 0.5;
+}
