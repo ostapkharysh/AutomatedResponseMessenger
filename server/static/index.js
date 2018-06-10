@@ -8,6 +8,11 @@ const buttonSec = document.querySelector('.click_user');
 
 const container = document.getElementById('container');
 
+//const ip = '138.68.93.61'
+const ip = '127.0.0.1'
+const port = '8080'
+
+
 textAreaYour.addEventListener('keydown', (ev) => {
     if (ev.key === 'Enter') ev.preventDefault();
 }, false);
@@ -26,7 +31,7 @@ textAreaYour.addEventListener('input', (ev) => {
         nextWord.innerHTML = " ";
         return;
     }
-    fetch('http://127.0.0.1:5000/api/v1', {
+    fetch('http://' + ip + ':' + port + '/api/v1', {
         method: 'POST',
         headers: new Headers(),
         body: sentence[sentence.length - 1]
@@ -51,7 +56,7 @@ textAreaUser.addEventListener('input', (ev) => {
         nextWordSec.innerHTML = " ";
         return;
     }
-    fetch('http://127.0.0.1:5000/api/v1', {
+    fetch('http://' + ip + ':' + port + '/api/v1', {
         method: 'POST',
         headers: new Headers(),
         body: sentence[sentence.length - 1]
