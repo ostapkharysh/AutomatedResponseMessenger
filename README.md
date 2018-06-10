@@ -13,4 +13,4 @@ Done:
 Dataset investigations (Linear and Logistic regression)
 CNN designed
 DocToVec implemeted
-Proved that  data after DocToVec algorithm could result in better accuracy ==> better system work
+Proved that  data after DocToVec algorithm could result in better accuracy ==> better system work.
