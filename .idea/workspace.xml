@@ -1,16 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a116a9f2-b833-435c-99a6-e808addbd611" name="Default" comment="Added next word prediction using Markov Model">
-      <change afterPath="$PROJECT_DIR$/server/static/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/static/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/analysis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/scripts/word_predic/.ipynb_checkpoints/MarkovModel-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/scripts/word_predic/.ipynb_checkpoints/MarkovModel-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/scripts/word_predic/MarkovModel.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/scripts/word_predic/MarkovModel.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/scripts/word_predic/data/data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/scripts/word_predic/data/qa_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/scripts/word_predic/data/qa_data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/semanticClastering/Graphs.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/semanticClastering/Graphs.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/telegramBot/inline_keyboard_use.py" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/telegramBot/inline_keyboard_use.py" afterDir="false" />
+    <list default="true" id="a116a9f2-b833-435c-99a6-e808addbd611" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Appliances.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Arts_Crafts_and_Sewing.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Automotive.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Baby.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Beauty.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Cell_Phones_and_Accessories.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Clothing_Shoes_and_Jewelry.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Electronics.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Grocery_and_Gourmet_Food.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Health_and_Personal_Care.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Home_and_Kitchen.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Industrial_and_Scientific.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Musical_Instruments.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Office_Products.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Patio_Lawn_and_Garden.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Pet_Supplies.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Software.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Sports_and_Outdoors.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Tools_and_Home_Improvement.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Toys_and_Games.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/amazon/qa_Video_Games.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/customized_data/openend_questions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/customized_data/yesno_questions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Investigation/rt-polaritydata/rt-polarity.pos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/.ipynb_checkpoints/CNN-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Investigation/.ipynb_checkpoints/CNN-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/CNN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Investigation/CNN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Appliances.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Arts_Crafts_and_Sewing.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Automotive.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Baby.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Beauty.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Cell_Phones_and_Accessories.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Clothing_Shoes_and_Jewelry.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Electronics.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Grocery_and_Gourmet_Food.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Health_and_Personal_Care.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Home_and_Kitchen.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Industrial_and_Scientific.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Musical_Instruments.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Office_Products.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Patio_Lawn_and_Garden.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Pet_Supplies.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Software.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Sports_and_Outdoors.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Tools_and_Home_Improvement.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Toys_and_Games.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/amazon/qa_Video_Games.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/customized_data/openend_questions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/customized_data/yesno_questions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/rt-polaritydata/rt-polarity.neg" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Investigation/rt-polaritydata/rt-polarity.neg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/CNN/rt-polaritydata/rt-polarity.pos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Linear&amp;LogisticRegression.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/analysis.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/scripts/findDialoguesHarryPotter/HarryPotterDialogues.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/scripts/findDialoguesHarryPotter/HarryPotterDialogues.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/scripts/word_predic/data/qa_Appliances.json.gz" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/scripts/word_predic/data/qa_Appliances.json.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/scripts/word_predic/data/qa_Tools_and_Home_Improvement.json.gz" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/scripts/word_predic/data/qa_Tools_and_Home_Improvement.json.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/scripts/word_predic/data/ua_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/scripts/word_predic/data/ua_data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/scripts/word_predic/data/ukrainian_reviews.csv" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/scripts/word_predic/data/ukrainian_reviews.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,71 +70,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/static/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarkovChain.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notebooks/scripts/word_predic/MarkovChain.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="40" selection-start-line="38" selection-end-line="40" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarkovModel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/MarkovModel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3570">
-              <caret line="214" selection-start-line="214" selection-end-line="214" />
-              <folding>
-                <element signature="e#30#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notebooks/scripts/word_predic/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -134,64 +120,39 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="948" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1301" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="FacebookAutomatedMessenger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FacebookAutomatedMessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="AutomatedMessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomatedMessenger" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FacebookAutomatedMessenger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FacebookAutomatedMessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="AutomatedMessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomatedMessenger" type="462c0819:PsiDirectoryNode" />
               <item name="notebooks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FacebookAutomatedMessenger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FacebookAutomatedMessenger" type="462c0819:PsiDirectoryNode" />
+              <item name="AutomatedMessenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomatedMessenger" type="462c0819:PsiDirectoryNode" />
               <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FacebookAutomatedMessenger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FacebookAutomatedMessenger" type="462c0819:PsiDirectoryNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="word_predic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FacebookAutomatedMessenger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FacebookAutomatedMessenger" type="462c0819:PsiDirectoryNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="word_predic" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FacebookAutomatedMessenger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FacebookAutomatedMessenger" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FacebookAutomatedMessenger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FacebookAutomatedMessenger" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="Investigation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,19 +309,32 @@
       <option name="project" value="LOCAL" />
       <updated>1527775400568</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Delete Useless classification">
+      <created>1528658551545</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528658551546</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Delete Useless Data">
+      <created>1528658583598</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528658583598</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15612802" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15833974" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32993197" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2840136" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2840136" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.33333334" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -368,24 +342,14 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15870446" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2840136" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33333334" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32993197" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,7 +360,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added next word prediction using Markov Model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added next word prediction using Markov Model" />
+    <MESSAGE value="Delete Useless classification" />
+    <MESSAGE value="Delete Useless Data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete Useless Data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -447,13 +413,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/try_autocompl.py" />
-    <entry file="file://$PROJECT_DIR$/../../../anaconda/Anaconda3/Lib/encodings/cp1251.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../anaconda/Anaconda3/Lib/encodings/cp1251.py" />
     <entry file="file://$PROJECT_DIR$/notebooks/telegramBot/inline_keyboard_use.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
@@ -531,13 +491,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../plagiarism/doc_similarity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" selection-start-line="9" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../plagiarism/doc_similarity.py" />
     <entry file="file://$PROJECT_DIR$/notebooks/telegramBot/inline_keyboard_use.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
@@ -566,13 +520,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../plagiarism/doc_similarity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" selection-start-line="9" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../plagiarism/doc_similarity.py" />
     <entry file="file://$PROJECT_DIR$/notebooks/telegramBot/bot_2.py" />
     <entry file="file://$PROJECT_DIR$/notebooks/telegramBot/inline_keyboard_use.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -595,21 +543,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../plagiarism/doc_similarity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" selection-start-line="9" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../plagiarism/doc_similarity.py" />
     <entry file="file://$PROJECT_DIR$/notebooks/telegramBot/bot_2.py" />
-    <entry file="file://$PROJECT_DIR$/../plagiarism/doc_similarity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" selection-start-line="9" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../plagiarism/doc_similarity.py" />
     <entry file="file://$PROJECT_DIR$/notebooks/telegramBot/bot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -624,13 +560,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../anaconda/Anaconda3/Lib/encodings/cp1251.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../anaconda/Anaconda3/Lib/encodings/cp1251.py" />
     <entry file="file://$PROJECT_DIR$/try_autocompl.py" />
     <entry file="file://$PROJECT_DIR$/notebooks/telegramBot/inline_keyboard_use.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -665,26 +595,27 @@
     <entry file="file://$USER_HOME$/Downloads/екн_1.py" />
     <entry file="file://$PROJECT_DIR$/notebooks/scripts/word_predic/MarkovModel.py" />
     <entry file="file://$PROJECT_DIR$/notebooks/scripts/word_predic/data/data.txt" />
-    <entry file="file://$PROJECT_DIR$/notebooks/scripts/word_predic/test.py">
+    <entry file="file://$USER_HOME$/Downloads/MarkovModel.py" />
+    <entry file="file://$PROJECT_DIR$/server/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/MarkovModel.py">
+    <entry file="file://$PROJECT_DIR$/server/static/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3570">
-          <caret line="214" selection-start-line="214" selection-end-line="214" />
-          <folding>
-            <element signature="e#30#48#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="379">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notebooks/scripts/word_predic/MarkovChain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
+        <state relative-caret-position="579">
           <caret line="40" selection-start-line="38" selection-end-line="40" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -694,25 +625,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="165">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/static/index.js">
+    <entry file="file://$PROJECT_DIR$/notebooks/scripts/word_predic/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
