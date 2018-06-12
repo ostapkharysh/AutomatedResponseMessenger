@@ -1,17 +1,34 @@
 body {
-    font-family:sans-serif;
+    font-family: sans-serif;
     color: #34495e;
 }
 
+.user__text {
+}
+
+.user__text_one {
+}
+
+.user__text_two {
+}
+
+.input-area {
+    position: relative;
+    margin-top: 10px;
+}
+
+.user {
+    display: inline-block;
+    position: absolute;
+
+}
+
 .user_one {
-    margin-top: 30%;
-    float: left;
-    margin-left: 20%;
+    left: 10%;
 }
 
 .user_two {
-    margin-top: 30%;
-    float: left;
+    right: 10%;
 }
 
 .predict_your {
@@ -24,24 +41,58 @@ body {
     opacity: 0.5;
 }
 
-#container {
-    overflow-y: auto;
-float: left;
+.chat {
     margin-left: auto;
     margin-right: auto;
 
-
     width: 400px;
-    height: 380px;
+    height: 280px;
     word-break: break-all;
-    background-color: #bdc3c7;
+
+    background-color: #34495e;
+    overflow: auto;
+
+    position: relative;
+
 }
 
 .tittle {
-    text-align:center;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.user__name {
+    margin: 0;
+}
+
+.chat__message {
+
+}
+
+.chat__box {
+    display: inline-block;
+    margin: 1px 10px 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.chat__box_one {
+    background-color: white;
+}
+
+.chat__box_two {
+    background-color: rgba(0, 206, 201, 1);
 }
 
 
-h5 {
-margin: 0;
+.chat__message_two {
+    text-align: right;
+
+
 }
+
+.chat__message_one {
+}
+
+
+
