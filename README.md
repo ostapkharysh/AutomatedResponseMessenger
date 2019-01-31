@@ -1,7 +1,4 @@
 # AutomatedResponseMessenger
-## Demo
-Use instructions for sending messages and press Enter for autocomplete words. Currently, works only for English.
-http://159.65.123.203:8080/main
 
 ## Project details
 Here is an implementation of ideas of how automated response could work.
